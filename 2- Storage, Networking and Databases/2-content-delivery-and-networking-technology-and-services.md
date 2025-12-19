@@ -75,6 +75,6 @@ It's an encrypted over public internet road from AWS to on-premise
 
 From on-premise to AWS. 
 
-### Client VPN access 
+### Client VPN 
 
 AWS from any location (individual remote access)
