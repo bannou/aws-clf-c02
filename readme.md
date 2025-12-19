@@ -4,7 +4,7 @@ Summary of the content of this certification, based on [pluralsight courses](htt
 
 Contents:
 
-1.  Cloud Foundations and Compute
+1. Cloud Foundations and Compute
    1. [Building your foundational AWS cloud knowledge](1-%20Cloud%20Foundations%20and%20Compute/1-building-your-foundational-aws-cloud-knowledge.md)
    2. [AWS cloud adoption framework and migration strategies](1-%20Cloud%20Foundations%20and%20Compute/2-aws-cloud-adoption-framework-and-migration-strategies.md)
    3. [AWS computing services powering your applications](1-%20Cloud%20Foundations%20and%20Compute/3-aws-computing-services-powering-your-applications.md)
