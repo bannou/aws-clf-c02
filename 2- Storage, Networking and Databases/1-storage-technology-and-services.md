@@ -13,13 +13,11 @@ Key features:
 - Encrypted
 - Snapshots
 
-incremental snapshots
-
 ### Types of EBS
 
 #### SSD (Solid State Drive)
 
-Used for high IOPS
+Used for high IOPS.
 
 ##### General SSD
 
@@ -33,19 +31,19 @@ Used for high IOPS
 
 #### HDD
 
-Used for high Throughput
+Used for high Throughput.
 
 ##### Throughput optimized
 
-Useful for big data
+Useful for big data.
 
 ##### Cold HDD
 
-Lowest storage cost
+Lowest storage cost.
 
 ### Snapshots
 
-Capturing the perfect state of a volume
+Capturing the perfect state of a volume.
 
 - incremental: saves only the changes from last snapshot
 - cross-region Replication
@@ -53,7 +51,7 @@ Capturing the perfect state of a volume
 
 ## Amazon EFS (Elastic File System)
 
-Is scalable File Storage solution for EC2 (and other AWS solutions)
+Is scalable File Storage solution for EC2 (and other AWS solutions).
 
 - fully managed
 - scalable file systems
@@ -61,7 +59,7 @@ Is scalable File Storage solution for EC2 (and other AWS solutions)
 
 ## Amazon Instance stores (<> RAM)
 
-Are temporary storage blocks directly attached to the EC2
+Are temporary storage blocks directly attached to the EC2.
 
 - high I/O performance
 - volatile storage spaces
@@ -69,7 +67,7 @@ Are temporary storage blocks directly attached to the EC2
 
 # Amazon S3 (Simple Storage Service)
 
-Composed of container/buckets containing objects = data + metadata
+Composed of container/buckets containing objects = data + metadata.
 
 - durable
 - scalable
@@ -78,29 +76,30 @@ Composed of container/buckets containing objects = data + metadata
 
 ## Amazon S3 Storage Classes
 
-Storage classes are options of how to store the data in S3
+Storage classes are options of how to store the data in S3.
 
 ### S3 Standard
 
-Usefully for frequently accessed data
+Usefully for frequently accessed data.
 
 - high throughput
 - low latency
 
 ### S3 Intelligent-tiering
 
-Perfect with impredictable access frequency
+Perfect with impredictable access frequency.
 
 - moves data automatically between access tiers 
 - savings in cost without performance impact
 
 ### S3 Standard-Infrequent access
 
-Usefully for less frequent accessed data, but still needs to be rapid when needed
+Usefully for less frequent accessed data, but still needs to be rapid when needed.
 
 ### S3 One Zone-Infrequent access
 
-Stores data in one AZ only
+Stores data in one AZ only.
+
 - less durable than multi AZs classes
 - less expensive 
 
@@ -108,7 +107,7 @@ Stores data in one AZ only
 
 ### S3 Glacier Instant Retrieval
 
-Archive storage for non frequently used data with rapid access
+Archive storage for non frequently used data with rapid access.
 
 > Fastest archive data
 
@@ -125,6 +124,7 @@ For long term storage (10 - 15 years) with very slow access time.
 
 
     S3 Buckets
+
     - aws bucket's name should be globally unique
     - by default, the buckets are closed to public
     - versions help recover a lost previous version
