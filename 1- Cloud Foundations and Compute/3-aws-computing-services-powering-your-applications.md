@@ -15,7 +15,7 @@ How CAF helps ?
 - identifies potential changes
 - helps identify optimizations
 
-## Business perspective
+## How Business profits from CAF ?
 
 - cost optimization
 - improve performance tracking
