@@ -33,11 +33,13 @@ Aimed for traffic staying within the VPC (or routed to on-premise via VPN or Dir
 > How to secure a VPC ?
 >
 > Security group:
+> 
 >           - stateful  
 >           - make decision of who entry and leave
 >           - allows to define protocol Ip ranges and ports
 >
 > Network ACL:
+> 
 >           - stateless
 >           - operates at subnet level
 >           - allow / deny traffic depending on ip, port, protocol
