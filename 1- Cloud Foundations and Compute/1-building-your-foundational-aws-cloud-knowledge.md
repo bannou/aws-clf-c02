@@ -43,37 +43,37 @@ The responsibility differ by the service
 
 ## EC2
 
-User's perimeter                application + data
+User's perimeter: application + data
 
-AWS's  perimeter                infrastructure, network, virtualization
+AWS's perimeter: infrastructure, network, virtualization
 
 ## Database
 
-User's perimeter                manage users passwords
+User's perimeter: manage users passwords
 
-AWS's  perimeter                patching the system, backing, ...
+AWS's perimeter: patching the system, backing, ...
 
 ## Lamba
 
-User's perimeter                write the code, configure the lambda
+User's perimeter: write the code, configure the lambda
 
-AWS's  perimeter                manages the scalability
+AWS's perimeter: manages the scalability
 
 # AZ and regions
 
 ## AZ
 AZ is unit having the same cooling and electricity.
 
-Last counted, 114 AZs exists
+Last counted, 114 AZs exists.
 
 > eu-west-3a
 > eu-west-3b
 > eu-west-3c
 
 ## Region
-Region is composed of multiple AZs
+Region is composed of multiple AZs.
 
-Last counted, 36 regions exists
+Last counted, 36 regions exists.
 
 > eu-west-3 (Paris) 
 
