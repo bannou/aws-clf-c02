@@ -45,12 +45,12 @@ The architecture should be reconsidered.
 
 ## Auto-scaling
 
-Allows to put EC2 instances in auto-scaling groups, and will stop and start only when needed.
+Allows to put EC2 instances in auto-scaling groups, and will <u>stop and start</u> only when needed.
 It reduces wasting computing capacities
 
 ## Right-Sizing instances
 
-??
+Avoiding over provisioning EC2 instances helps meet the usage curve.
 
 ## Reserved Instances
 
